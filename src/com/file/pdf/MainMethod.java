@@ -87,7 +87,7 @@ public class MainMethod {
 		auditsPoTableData.setTotalLabel("some");
 		auditsPoTableData.setValueAddedTax("some");
 		try {
-			Path path = Paths.get("C:\\Coding\\Eclipse Workspace\\Test\\resources\\result.pdf");
+			Path path = Paths.get("C:\\Users\\uhase\\git\\ForeignLanguagePDF\\resources\\result.pdf");
 			Files.write(path, auditsPoQuote.createPdf(auditsPoTableData));
 		} catch (Exception e) {
 			e.printStackTrace();
